@@ -1,5 +1,4 @@
-/*GENERAL*/
-
+/* general */
 
 * {
     box-sizing: border-box;
@@ -11,7 +10,7 @@
      aspect-ratio: 1 / 1;
 }
 
-/* HEADER */
+/* header */
 
 header {
     background-color: #cbd8df;
@@ -30,7 +29,6 @@ header {
     aspect-ratio: 1 / 1; 
     border-radius: 47% 47% 47% 47%;
 }
-
 
 .formularios {
 
@@ -60,18 +58,14 @@ header {
 }
 
 
-/* NAV */
+/* nav */
 
 .navheader {
     display: flex;
     align-items: center;
 }
 
-
-
-
-
-/* LISTA */
+/* lista */
 
 .navheader ul {
     display: flex;
@@ -82,7 +76,7 @@ header {
     padding: 0;
 }
 
-/* ELEMENTOS DE LA LISTA */
+/* elementos de la lista */
 
 .navheader li {
     background-color: #f5eee27d;
@@ -90,13 +84,12 @@ header {
     border-radius: 15px;
 }
 
-/* LINKS */
+/* enlaces */
 
 .navheader a {
     text-decoration: none;
     color: #242424;
 }
-
 
 /* footer */
 
