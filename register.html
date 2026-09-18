@@ -7,49 +7,95 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>          
+        <img src="./img/logoheader.jpeg" alt="logo" class="logo">
 
+        <div class="formularios"><form action="search-results.html" method="GET"> <div class="buscadorheader"><label>search</label> <input type="search" name="" value=""> </div></form></div> 
+
+        <nav class="navheader">
+            <ul>
+                <li><a href="index.html" class="login">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html" class="register">Register</a></li>
+            </ul>   
+        </nav>
+    </header>
 
     <main>
 
-    <div class="Tituloreg">
-        <h4>REGISTRATE</h4>
-    </div>
-
-    <form action="login.html" method="post" class="formularioRegistro">
-
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <div class="Tituloreg">
+            <h4>REGISTRATE</h4>
         </div>
 
-        <div>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
+        <form action="login.html" method="post" class="formularioRegistro">
 
-        <div>
-            <label for="repetirPassword">Repetir contraseña:</label>
-            <input type="password" id="repetirPassword" name="repetirPassword" required>
-        </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-        <div>
-            <label>
-                <input type="checkbox" name="terminos" required>
-                Acepto términos y condiciones
-            </label>
-        </div>
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
 
-        <div>
-            <button type="submit">Registrarme</button>
-        </div>
+            <div>
+                <label for="repetirPassword">Repetir contraseña:</label>
+                <input type="password" id="repetirPassword" name="repetirPassword" required>
+            </div>
 
-        <div>
-            <a href="login.html">Ya tengo una cuenta</a>
-        </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="terminos" required>
+                    Acepto términos y condiciones
+                </label>
+            </div>
 
-    </form>
+            <div>
+                <button type="submit">Registrarme</button>
+            </div>
 
-</main>
+            <div>
+                <a href="login.html">Ya tengo una cuenta</a>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <nav class="navfooterprincipal">
+            <div class="cajafooter">
+                <h3>Acerca de <strong>Nomade</strong></h3>
+                <p><a href="index.html">Quienes somos</a></p>
+                <p><a href="index.html">Terminos de uso</a></p>
+                <p><a href="index.html">Terminos de venta</a></p>
+            </div>
+
+            <div class="cajafooter">
+                <h3>Redes Sociales</h3>
+                <p><a href="index.html">X</a></p>
+                <p><a href="index.html">Facebook</a></p>
+                <p><a href="index.html">Instagram</a></p>
+            </div>
+
+            <div class="cajafooter">
+                <h3>Ayuda</h3>
+                <p><a href="index.html">Preguntas frecuentes</a></p>
+                <p><a href="index.html">Contacto</a></p>
+            </div>
+        
+        </nav>
+
+        <nav class="navfootersecundario">
+            <ul>
+                <li>Tiago Ramallo</li>
+                <li>Santiago Garibaldi</li>
+                <li>Santiago Iribarren</li>
+            </ul>
+        </nav>
+
+    </footer>
     
 </body>
 </html>

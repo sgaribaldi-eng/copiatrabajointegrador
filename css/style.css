@@ -96,3 +96,55 @@ header {
     text-decoration: none;
     color: #242424;
 }
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    background-color: rgba(89, 89, 209, 0.557);
+}
+
+/* primer nav */
+
+.navfooterprincipal {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.cajafooter {
+    width: 30%;
+    text-align: left;
+}
+
+.cajafooter p {
+    margin: 8px 0;
+}
+
+.cajafooter p a {
+    color: black;
+    text-decoration: none;
+}
+
+/* segundo nav */
+
+.navfootersecundario {
+    width: 90%;
+}
+
+.navfootersecundario ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+
+.navfootersecundario li {
+    padding: 0 5px;
+    border-right: 1px solid; 
+}
