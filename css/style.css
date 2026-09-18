@@ -105,7 +105,9 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px 20px 0 20px;
-    background-color: rgba(89, 89, 209, 0.557);
+    background-color: #557D96;
+    color: #F4E6CF;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* primer nav */
@@ -125,7 +127,7 @@ footer {
 }
 
 .cajafooter p a {
-    color: black;
+    color: #F4E6CF;
     text-decoration: none;
 }
 
@@ -147,4 +149,5 @@ footer {
 .navfootersecundario li {
     padding: 0 5px;
     border-right: 1px solid; 
+    color:  #FFFFFF;
 }
