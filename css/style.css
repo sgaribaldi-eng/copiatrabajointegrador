@@ -1,0 +1,101 @@
+/*GENERAL*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 15vw;
+    border-radius: 50%;
+     aspect-ratio: 1 / 1;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    background-color: #cbd8df;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+
+.logo {
+    width: 180px;
+    height: 180px;
+    aspect-ratio: 1 / 1; 
+    border-radius: 47% 47% 47% 47%;
+}
+
+
+.formularios {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+
+}
+
+.formularios form {
+
+    width: 100%;
+
+}
+
+.buscadorheader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.buscadorheader input {
+     width: 100%;
+    height: 40px;
+}
+
+
+/* NAV */
+
+.navheader {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* LISTA */
+
+.navheader ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ELEMENTOS DE LA LISTA */
+
+.navheader li {
+    background-color: #f5eee27d;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+/* LINKS */
+
+.navheader a {
+    text-decoration: none;
+    color: #242424;
+}
