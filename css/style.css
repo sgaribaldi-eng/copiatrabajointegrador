@@ -10,7 +10,7 @@
      aspect-ratio: 1 / 1;
 }
 
-/* header */
+/* header html */
 
 header {
     background-color: #cbd8df;
@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     width: 100%;
     padding: 15px 30px;
+
 }
 
 
@@ -91,18 +92,78 @@ header {
     color: #242424;
 }
 
-/* main */
+
+
+
+
+/* main index */
 
 /* cajapadre1 */
 
-img {
-    width: 300px;
-    height: 300px;
+.cajaPadreUno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgba(250, 240, 227, 0.68);
 }
+
+.productosaleatorios {
+    width: 100%;
+    text-align: center;
+    background-color: #416a8372;
+    border-radius: 35px;
+}
+
+.imagenesproductos{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cajaPadreUno article {
+    width: 22%;
+    text-align: center;
+}
+
+
 
 /* cajapadre2 */
 
-/* footer */
+.cajaPadreDos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgba(250, 240, 227, 0.68);
+}
+
+.masvendidos {
+    width: 100%;
+    text-align: center;
+    background-color: #416a8372;
+    border-radius: 35px;
+}
+
+.imagenesproductosdos{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cajaPadreDos article {
+    width: 22%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* footer html */
 
 footer {
     display: flex;
@@ -155,6 +216,12 @@ footer {
     border-right: 1px solid; 
     color:  #FFFFFF;
 }
+
+
+
+
+
+
 
 /* login */
 
