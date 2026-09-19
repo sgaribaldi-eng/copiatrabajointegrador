@@ -91,6 +91,17 @@ header {
     color: #242424;
 }
 
+/* main */
+
+/* cajapadre1 */
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* cajapadre2 */
+
 /* footer */
 
 footer {
@@ -143,4 +154,67 @@ footer {
     padding: 0 5px;
     border-right: 1px solid; 
     color:  #FFFFFF;
+}
+
+/* login */
+
+.mainlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF8F3;
+    padding: 50px 0;
+}
+
+.sectionlogin {
+    width: 100%;
+    max-width: 430px;
+    background-color: #F4E6CF;
+    padding: 45px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.sectionlogin h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    color: #292c2c;
+    margin-bottom: 20px;
+}
+
+.divlogin {
+    margin: 0 0 20px 0;
+}
+
+.sectionlogin input {
+    width: 100%;
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #686E70;
+    border-radius: 5px;
+}
+
+.buttonlogin {
+    width: 100%;
+    background-color: #557D96;
+    color: white;
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #416A83;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sectionlogin a {
+    color: #416A83;
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
 }
