@@ -436,17 +436,29 @@
                     }
 
                     .logo {
-                        width: 140px;
-                        height: 140px;
+                        width: 120px;
+                        height: 120px;
                     }
 
                     .formularios {
-                        margin: 0 15px;
+                        width: 65%;
+                        margin: 0;
+                    }
+
+                    .navheader {
+                        width: 100%;
+                        justify-content: center;
+                    }
+
+                    .navheader ul {
+                        width: 90%;
+                        justify-content: space-between;
                     }
 
                     .navheader li {
-                        padding: 20px 30px;
+                        width: 30%;
+                        text-align: center;
+                        padding: 15px 0;
                     }
-
                 }
-                
+                                
