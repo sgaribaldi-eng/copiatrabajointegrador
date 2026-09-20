@@ -19,8 +19,6 @@
                     align-items: center;
                     justify-content: space-between;
                     width: 100%;
-                    padding: 15px 30px;
-
                 }
 
 
@@ -425,3 +423,30 @@
                     color: #292C2C;
                     line-height: 1.5;
                 }
+
+/* mediaquaries */
+
+            /* tablet */
+
+                @media (max-width: 900px) {
+                    header {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 20px;
+                    }
+
+                    .logo {
+                        width: 140px;
+                        height: 140px;
+                    }
+
+                    .formularios {
+                        margin: 0 15px;
+                    }
+
+                    .navheader li {
+                        padding: 20px 30px;
+                    }
+
+                }
+                
