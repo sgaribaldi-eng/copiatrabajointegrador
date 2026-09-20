@@ -58,6 +58,10 @@
                     height: 40px;
                 }
 
+                .buscadorheader label {
+                    font-family: "Montserrat", sans-serif;
+                    color: #292C2C;
+                }
 
                 /* nav */
 
@@ -89,7 +93,10 @@
 
                 .navheader a {
                     text-decoration: none;
-                    color: #242424;
+                    color: #292C2C;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
                 }
 
 /* footer html */
@@ -141,15 +148,12 @@
 
                 .navfootersecundario li {
                     padding: 0 5px;
-                    border-right: 1px solid; 
                     color:  #FFFFFF;
                 }
 
-
-
-
 /* index */
             /* main */
+
             /* cajapadre1 */
                 .cajaPadreUno {
                     display: flex;
@@ -165,6 +169,9 @@
                     text-align: center;
                     background-color: #416a8372;
                     border-radius: 35px;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 32px;
+                    font-weight: 600;
                 }
 
                 .imagenesproductos{
@@ -176,6 +183,23 @@
                 .cajaPadreUno article {
                     width: 22%;
                     text-align: center;
+                }
+
+                .cajaPadreUno h3 {
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+
+                .producto a {
+                    background-color: #557D96;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
                 }
 
             /* cajapadre2 */
@@ -194,6 +218,9 @@
                     text-align: center;
                     background-color: #416a8372;
                     border-radius: 35px;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 32px;
+                    font-weight: 600;
                 }
 
                 .imagenesproductosdos{
@@ -207,7 +234,22 @@
                     text-align: center;
                 }
 
+                .cajaPadreDos h3 {
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
 
+                .productodos a {
+                    background-color: #557D96;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
 
 /* login */
 
@@ -230,26 +272,32 @@
                 }
 
                 .sectionlogin h2 {
-                    margin: 0;
+                    margin: 0 0 20px 0;
                     text-align: center;
-                    font-size: 38px;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 42px;
                     font-weight: 500;
-                    color: #292c2c;
-                    margin-bottom: 20px;
+                    color: #292C2C;
                 }
 
                 .divlogin {
                     margin: 0 0 20px 0;
                 }
 
+                .sectionlogin label {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
                 .sectionlogin input {
                     width: 100%;
                     padding: 10px;
-
                     box-sizing: border-box;
-
                     border: 1px solid #686E70;
                     border-radius: 5px;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
                 }
 
                 .buttonlogin {
@@ -259,19 +307,17 @@
                     padding: 12px;
                     border-radius: 25px;
                     border: 2px solid #416A83;
-                    font-size: 17px;
-                    font-weight: bold;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
                 }
 
                 .sectionlogin a {
                     color: #416A83;
                     text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
                 }
-
-                input {
-                    width: 100%;
-                }
-
 
 /* product */
 
@@ -303,12 +349,18 @@
                 }
 
                 .informacionProductoEspecifico h1 {
-                    font-size: 40px;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 45px;
+                    font-weight: 600;
+                    color: #292C2C;
                     margin-top: 0;
                     margin-bottom: 25px;
                 }
 
                 .informacionProductoEspecifico p {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    color: #292C2C;
                     margin-bottom: 20px;
                     line-height: 1.5;
                 }
@@ -318,6 +370,8 @@
                 }
 
                 .tags h3 {
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 24px;
                     margin-bottom: 10px;
                 }
 
@@ -332,6 +386,8 @@
                     background-color: #F4E6CF;
                     padding: 8px 15px;
                     border-radius: 15px;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
                 }
 
         /* productReviews */
@@ -342,8 +398,11 @@
 
                 .productReviews h2 {
                     text-align: center;
-                    font-size: 32px;
                     margin-bottom: 30px;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 38px;
+                    font-weight: 600;
+                    color: #292C2C;
                 }
 
                 .review {
@@ -355,8 +414,14 @@
 
                 .review h3 {
                     margin-top: 0;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 24px;
+                    color: #292C2C;
                 }
 
                 .review p {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                    color: #292C2C;
                     line-height: 1.5;
                 }
