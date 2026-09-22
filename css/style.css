@@ -152,6 +152,48 @@
 /* index */
             /* main */
 
+
+             .mainindex {
+                    display: flex;
+                    align-items: flex-start;
+                    background-color: #FAF8F3;
+                }
+
+                .categoryIndex {
+                    width: 18%; 
+                    padding: 30px 20px; 
+                }
+
+                 .categoryIndex h2 {
+                    font-family: "Cormorant Garamond", serif; 
+                    font-size: 26px; 
+                    color: #292C2C; 
+                }
+
+                .categoryIndex ul {
+                    list-style: none;
+                    padding: 0; 
+                }
+
+                .categoryIndex li {
+                    margin-bottom: 20px; 
+                }
+
+                .categoryIndex a {
+                    text-decoration: none;
+                    color: #292C2C;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                }
+
+                .ppalIndex {
+                    width: 82%;
+                }
+
+
+
+
+
             /* cajapadre1 */
                 .cajaPadreUno {
                     display: flex;
