@@ -317,6 +317,93 @@
                     font-size: 14px;
                 }
 
+/* register */
+
+                .mainregister {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #FAF8F3;
+                    padding: 50px 0;
+                }
+
+                .sectionregister {
+                    width: 100%;
+                    max-width: 430px;
+                    background-color: #F4E6CF;
+                    padding: 45px;
+                    border-radius: 20px;
+                    width: 500px;
+                }
+
+                .sectionregister h2 {
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 42px;
+                    font-weight: 500;
+                    color: #292C2C;
+                }
+
+                .divregister {
+                    margin: 0 0 20px 0;
+                }
+
+                .sectionregister label {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                .sectionregister input {
+                    width: 100%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    border: 1px solid #686E70;
+                    border-radius: 5px;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                }
+
+                .terminosRegister {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .terminosRegister label {
+                    display: flex;
+                    align-items: center;
+                    font-size: 13px;
+                }
+
+                .terminosRegister input {
+                    width: auto;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .buttonregister {
+                    width: 100%;
+                    background-color: #557D96;
+                    color: white;
+                    padding: 12px;
+                    border-radius: 25px;
+                    border: 2px solid #416A83;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .aregister {
+                    color: #416A83;
+                    text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
+                }
+
+
+
 /* product */
 
         /* productoespecifico */
