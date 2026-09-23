@@ -152,34 +152,33 @@
 /* index */
             /* main */
 
-
              .mainindex {
                     display: flex;
                     align-items: flex-start;
                     background-color: #FAF8F3;
                 }
 
-                .categoryIndex {
+                .navcategorias {
                     width: 18%; 
                     padding: 30px 20px; 
                 }
 
-                 .categoryIndex h2 {
+                 .navcategorias h2 {
                     font-family: "Cormorant Garamond", serif; 
                     font-size: 26px; 
                     color: #292C2C; 
                 }
 
-                .categoryIndex ul {
+                .navcategorias ul {
                     list-style: none;
                     padding: 0; 
                 }
 
-                .categoryIndex li {
+                .navcategorias li {
                     margin-bottom: 20px; 
                 }
 
-                .categoryIndex a {
+                .navcategorias a {
                     text-decoration: none;
                     color: #292C2C;
                     font-family: "Montserrat", sans-serif;
@@ -189,10 +188,6 @@
                 .ppalIndex {
                     width: 82%;
                 }
-
-
-
-
 
             /* cajapadre1 */
                 .cajaPadreUno {
@@ -444,8 +439,6 @@
                     font-size: 14px;
                 }
 
-
-
 /* product */
 
         /* productoespecifico */
@@ -552,6 +545,64 @@
                     color: #292C2C;
                     line-height: 1.5;
                 }
+
+/* search-results */
+                .mainsearch {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                .resultadosBusqueda {
+                    width: 80%;
+                    padding: 30px;
+                    background-color: #FAF8F3;
+                }
+
+                .resultadosBusqueda h1 {
+                    font-family: "Cormorant Garamond", serif;
+                    font-size: 38px;
+                    color: #292C2C;
+                }
+
+                .resultadosBusqueda p {
+                    font-family: "Montserrat", sans-serif;
+                }
+
+                .productosEncontrados {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    margin-top: 30px;
+                }
+
+                .productosEncontrados article {
+                    width: 30%;
+                    text-align: center;
+                    font-family: "Montserrat", sans-serif;
+                }
+
+                .imagenResultado {
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                }
+
+                .productosEncontrados h2 {
+                    font-family: "Cormorant Garamond", serif;
+                }
+
+                .asearch {
+                    background-color: #557D96;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                
+
 
 /* mediaquaries */
 
