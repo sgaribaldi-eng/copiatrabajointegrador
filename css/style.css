@@ -155,12 +155,12 @@
              .mainindex {
                     display: flex;
                     align-items: flex-start;
-                    background-color: #FAF8F3;
                 }
 
                 .navcategorias {
                     width: 18%; 
                     padding: 30px 20px; 
+                    background-color: white;
                 }
 
                  .navcategorias h2 {
@@ -286,6 +286,12 @@
                     font-weight: 500;
                 }
 
+/* category */
+                .maincategory {
+                    display: flex;
+                    align-items: flex-start;
+                    background-color: rgba(250, 240, 227, 0.68);
+                }
 /* login */
 
                 .mainlogin {
@@ -440,7 +446,11 @@
                 }
 
 /* product */
-
+                .mainproduct {
+                    display: flex;
+                    align-items: flex-start;
+                    background-color: rgba(250, 240, 227, 0.68);
+                }
         /* productoespecifico */
                 .productoespecifico {
                     display: flex;
@@ -549,13 +559,14 @@
 /* search-results */
                 .mainsearch {
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
+                    align-items: flex-start;
+                    background-color: rgba(250, 240, 227, 0.68);
                 }
+
                 .resultadosBusqueda {
                     width: 80%;
                     padding: 30px;
-                    background-color: #FAF8F3;
+                    background-color: rgba(250, 240, 227, 0.68);
                 }
 
                 .resultadosBusqueda h1 {
