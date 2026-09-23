@@ -25,7 +25,7 @@
                 .logo {
                     width: 180px;
                     height: 180px;
-                    aspect-ratio: 1 / 1; 
+                    aspect-ratio: 1 / 1; /* vuelve cuadrada la foto */
                     border-radius: 47% 47% 47% 47%;
                 }
 
