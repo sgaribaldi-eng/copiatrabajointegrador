@@ -15,7 +15,6 @@
                     width: 100%;
                 }
 
-
                 .logo {
                     width: 180px;
                     height: 180px;
@@ -33,9 +32,7 @@
                 }
 
                 .formularios form {
-
                     width: 100%;
-
                 }
 
                 .buscadorheader {
@@ -104,6 +101,7 @@
                 }
 
                 /* primer nav */
+
                 .navfooterprincipal {
                     display: flex;
                     justify-content: space-between;
@@ -438,7 +436,6 @@
                 .mainproduct {
                     display: flex;
                     align-items: flex-start;
-                    background-color: rgba(250, 240, 227, 0.68);
                 }
         /* productoespecifico */
                 .productoespecifico {
@@ -602,13 +599,64 @@
                     font-weight: 500;
                 }
                 
-
-
 /* mediaquaries */
+
+            /* pantalla mediana */
+
+                @media (max-width: 1150px) {
+
+                    .mainindex, .maincategory, .mainproduct, .mainsearch {
+                        flex-direction: column;
+                    }
+
+                    .navcategorias {
+                        width: 100%;
+                        padding: 20px 30px;
+                    }
+
+                    .navcategorias h2 {
+                        text-align: center;
+                    }
+
+                    .navcategorias ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 15px 30px;
+                    }
+
+                    .navcategorias li {
+                        margin-bottom: 0;
+                    }
+
+                    .ppalIndex {
+                        width: 100%;
+                    }
+
+                    .cajaPadreUno article {
+                        width: 30%;
+                    }
+
+                    .cajaPadreDos article {
+                        width: 30%;
+                    }
+
+                    .resultadosBusqueda {
+                        width: 100%;
+                        background-color: #FAF8F3;
+                    }
+
+                    .productosEncontrados {
+                        width: 100%;
+                        justify-content: center;
+                    }
+
+                }
 
             /* tablet */
 
                 @media (max-width: 900px) {
+
                     header {
                         flex-wrap: wrap;
                         justify-content: center;
@@ -642,4 +690,26 @@
                     }
 
                 }
-                                
+
+            /* celular */
+
+                @media (max-width: 550px) {
+
+                    .cajaPadreUno article {
+                        width: 100%;
+                    }
+
+                    .cajaPadreDos article {
+                        width: 100%;
+                    }
+
+                     .productosEncontrados {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .productosEncontrados article {
+                        width: 90%;
+                    }
+
+                }
