@@ -4,12 +4,6 @@
                     box-sizing: border-box;
                 }
 
-                .logo{
-                    height: 15vw;
-                    border-radius: 50%;
-                    aspect-ratio: 1 / 1;
-                }
-
 /* header html */
 
                 header {
