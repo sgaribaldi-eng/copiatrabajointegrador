@@ -365,6 +365,40 @@
                     font-size: 14px;
                 }
 
+                .errormail {
+                    display: none;
+                    margin-top: 8px;
+                    padding: 10px 12px;
+                    background-color: #FBE8E5;
+                    border: 1px solid #C77B70;
+                    border-radius: 5px;
+                }
+
+                .errormail p {
+                    margin: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #9B3D35;
+                }
+
+                .errorcontraseña {
+                    display: none;
+                    margin-top: 8px;
+                    padding: 10px 12px;
+                    background-color: #FBE8E5;
+                    border: 1px solid #C77B70;
+                    border-radius: 5px;
+                }
+
+                .errorcontraseña p {
+                    margin: 0;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #9B3D35;
+                }
+
 /* register */
 
                 .mainregister {

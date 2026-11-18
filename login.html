@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -32,12 +33,14 @@
             
                 <div class="divlogin">
                     <label for="email">Email:</label>
-                    <input id="email" type="email" name="email" value="" required>
+                    <input id="email" type="email" name="email" value="">
+                    <div class="errormail"></div>
                 </div>
 
                 <div class="divlogin">
                  <label for="contraseña">Contraseña:</label>
-                    <input id="contraseña" type="password" name="contraseña" value="" required>
+                    <input id="contraseña" type="password" name="contraseña" value="">
+                    <div class="errorcontraseña"></div>
                 </div>
 
                 <button class="buttonlogin" type="submit">Ingresar</button>
@@ -81,6 +84,6 @@
         </nav>
 
     </footer>
-
+    <script src="./js/login.js"></script>
 </body>
 </html>
