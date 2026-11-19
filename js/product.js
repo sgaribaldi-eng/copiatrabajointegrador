@@ -17,7 +17,9 @@ fetch("https://dummyjson.com/products/" + id)
         document.querySelector("#marcaProducto").innerText = data.brand
         document.querySelector("#descripcionProducto").innerText = data.description
         document.querySelector("#precioProducto").innerText = data.price
+        
         document.querySelector("#categoriaProducto").innerText = data.category
+        document.querySelector("#categoriaProducto").href = "category.html?category=" + data.category
 
         document.querySelector("#stockProducto").innerText = data.stock
         let tags = data.tags
