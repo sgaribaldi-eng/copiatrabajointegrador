@@ -17,9 +17,11 @@
 
         <nav class="navheader">
             <ul>
-                <li><a href="index.html" class="login">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html" class="register">Register</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="login"><a href="login.html">Login</a></li>
+                <li class="register"><a href="register.html">Register</a></li>
+                <li class="saludo"></li>
+                <li class="logout"><a href="#">Logout</a></li>
             </ul>   
         </nav>
     </header>   
@@ -59,28 +61,8 @@
             </nav>
 
         <section class="resultadosBusqueda">
-            <h1>Resultados de búsqueda</h1>
-            <p>Resultados para:<strong>"mesa"</strong></p>
-
-            <div class="productosEncontrados">
-
-                <article>
-                    <img src="img/mesanordica.png" alt="Mesa Nórdica" class="imagenResultado">
-                    <h2>Mesa Nórdica</h2>
-                    <p>Mesa de comedor de madera con diseñovsimple y líneas modernas.</p>
-                    <p>$340.000</p>
-                    <a href="product.html" class="asearch">VER DETALLE</a>
-                </article>
-
-                <article>
-                    <img src="img/mesadeluzalba.png" alt="Mesa de Luz Alba" class="imagenResultado">
-                    <h2>Mesa de Luz Alba</h2>
-                    <p>Mesa de luz compacta con cajón y espacio de guardado inferior.</p>
-                    <p>$110.000</p>
-                    <a href="product.html" class="asearch">VER DETALLE</a>
-                </article>
-
-            </div>
+            <div class="tituloBusqueda"></div>
+            <div class="productosEncontrados"></div>
 
         </section>
 
@@ -118,6 +100,9 @@
         </nav>
 
     </footer>
+    <script src="./js/search-results.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 </html>

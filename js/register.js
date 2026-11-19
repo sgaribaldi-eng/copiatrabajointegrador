@@ -21,6 +21,9 @@ formulario.addEventListener("submit", function(e){
     } else if (inputcontraseña.value.length < 6 ) {
         errorContraseña.innerHTML = `<p>La contraseña debe tener al menos 6 caracteres</p>`
         errorContraseña.style.display = "block"
+    } else if (inputrepetir.value == "") {
+        errorRepetir.innerHTML = `<p>Este campo es obligatorio</p>`
+        errorRepetir.style.display = "block"
     } else if (inputrepetir.value != inputcontraseña.value) {
         errorRepetir.innerHTML = `<p>Las contraseñas no coinciden</p>`
         errorRepetir.style.display = "block"
