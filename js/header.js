@@ -5,7 +5,7 @@ formularioBuscador.addEventListener("submit", function(e){
     e.preventDefault()
 
     if (inputBuscador.value == "") {
-        alert("El campo de búsqueda no puede estar vacío")
+        alert("El campo de búsqueda no puede estar vacío.")
     } else if (inputBuscador.value.length < 3) {
         alert("El término buscado debe tener al menos 3 caracteres")
     } else {
