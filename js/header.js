@@ -14,7 +14,6 @@ formularioBuscador.addEventListener("submit", function(e){
 
 })
 
-
 let listaCategorias = document.querySelector(".navcategorias ul")
 
 if (listaCategorias != null) {

@@ -1,5 +1,4 @@
 /* general */
-
                 * {
                     box-sizing: border-box;
                 }
@@ -717,7 +716,34 @@
 
             /* pantalla mediana */
 
-                @media (max-width: 1150px) {
+                @media (max-width: 1200px) {
+
+                    header {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 20px;
+                    }
+
+                    .formularios {
+                        width: 65%;
+                        margin: 0;
+                    }
+
+                    .navheader {
+                        width: 100%;
+                        justify-content: center;
+                    }
+
+                    .navheader ul {
+                        width: 90%;
+                        justify-content: space-between;
+                    }
+
+                    .navheader li {
+                        width: 30%;
+                        text-align: center;
+                        padding: 15px 0;
+                    }
 
                     .mainindex, .maincategory, .mainproduct, .mainsearch {
                         flex-direction: column;
@@ -771,36 +797,23 @@
 
                 @media (max-width: 900px) {
 
-                    header {
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        gap: 20px;
-                    }
-
                     .logo {
                         width: 120px;
                         height: 120px;
                     }
 
-                    .formularios {
-                        width: 65%;
-                        margin: 0;
-                    }
-
-                    .navheader {
-                        width: 100%;
-                        justify-content: center;
-                    }
-
                     .navheader ul {
-                        width: 90%;
-                        justify-content: space-between;
+                        flex-direction: column;
+                        gap: 10px;
                     }
 
                     .navheader li {
-                        width: 30%;
-                        text-align: center;
-                        padding: 15px 0;
+                        width: 100%;
+                    }
+
+                    .navheader .saludo {
+                        padding: 10px;
+                
                     }
 
                 }
@@ -817,13 +830,30 @@
                         width: 100%;
                     }
 
-                     .productosEncontrados {
+                    .productosEncontrados {
                         flex-direction: column;
                         align-items: center;
                     }
 
                     .productosEncontrados article {
                         width: 90%;
+                    }
+
+                    .formularios {
+                        width: 90%;
+                    }
+
+                    .buscadorheader {
+                        flex-wrap: wrap;
+                    }
+
+                    .buscadorheader input {
+                        width: auto;
+                        flex: 1;
+                    }
+
+                    .buscadorheader button {
+                        width: 100%;
                     }
 
                 }
